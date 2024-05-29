@@ -1,0 +1,73 @@
+/* Style for the container */
+body {
+    margin: 0;
+    background-color: #AED6F1;
+    height: 100vh;
+}
+
+.home-container {
+    margin: auto;
+    background-color: #AED6F1;
+    padding: 30px 20px;
+    /* Adjust padding */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 700;
+    max-width: 1200px;
+    /* Set a max-width for better control */
+    padding-top: 0;
+    /* Reduce top padding to match navbar */
+}
+
+/* Style for the greeting */
+.home-greeting {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+
+/* Style for the introduction text */
+.home-intro-text {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+/* Style for the name */
+.home-name {
+    color: #154360;
+}
+
+/* Style for the developer */
+.home-Dev {
+    font-size: 2.6rem;
+    line-height: 1.6;
+    color: black;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+/* Style for the paragraphs */
+.home-para {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: black;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+/* Style for the button */
+.home-btn {
+    margin-top: 20px;
+}
+
+/* Style for the image */
+.img-fluid {
+    max-height: 490px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+}
